@@ -1,3 +1,3 @@
 GitTest::Application.routes.draw do
-  get '/hi', { controller: 'greetings', action: 'casual' }
+  get '/hello', { controller: 'greetings', action: 'casual' }
 end
